@@ -14,7 +14,7 @@ function Roompage() {
       sharedLinks: [
         {
           name: 'Copy Link',
-          url: `http://localhost:3000/room`
+          url: `${window.location.origin}/room`
         }
       ],
       scenario: {
